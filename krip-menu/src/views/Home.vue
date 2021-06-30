@@ -45,45 +45,11 @@
     </div>
     <div class="menu-page">
       <div id="top">
-        <h1>Pije</h1>
+        <h1 id="frozenYogurt">Frozen Yogurt</h1>
         <img id='logo' src="@/assets/krip-krap.png" alt="">
       </div>
       <div id="menu">
-        <div class="flex-row menu-option">
-          <p>Kafe/machiato <span style="letter-spacing: 3px;">....................................</span></p><span>0.70€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Kapuçino<span style="letter-spacing: 3px;">...............................................</span></p><span>1.00€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Frape<span style="letter-spacing: 3px;">....................................................</span></p><span>2.00€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Çokollatë e nxehtë<span style="letter-spacing: 3px;">................................</span></p><span>1.50€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Kakao<span style="letter-spacing: 3px;">...................................................</span></p><span>4.99€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Ujë natyral ose i gazuar<span style="letter-spacing: 3px;">.........................</span></p><span>1.00€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Çaj i ftohtë<span style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Fanta<span style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Coca Cola<span style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Bravo<span style="letter-spacing: 3px;">....................................................</span></p>
-          <span>1.00€</span>
-          <span id="alternativeText">(me shije të ndryshme)</span>
-        </div>
-        <div class="flex-row menu-option">
-          <p>Redbull<span style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
-        </div>
+
       </div>
     </div>
 
@@ -102,14 +68,19 @@ export default {
 </script>
 
 <style>
+
+body {
+  background: rgb(248, 251, 253);
+}
+
 .home {
   display: flex;
 }
 
 .menu-page {
   width: 1000px;
-  padding: 25px;
-  margin: 10px;
+  padding: 50px;
+  margin: 0 25px;
   background: #f8eaff;
   box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -125,6 +96,10 @@ export default {
   margin: 30px 0;
   font-weight: 100;
   position: relative;
+}
+
+.menu-page:nth-child(2) {
+  background: #fdfefe;
 }
 
 h1 {
@@ -166,6 +141,10 @@ h1 {
   font-size: 15px;
 }
 
+
+#frozenYogurt {
+  width: 75px;
+}
 
 
 </style>

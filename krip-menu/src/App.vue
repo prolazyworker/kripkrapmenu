@@ -1,6 +1,16 @@
 <template>
+  <navBar></navBar>
   <router-view/>
 </template>
+
+<script>
+import navBar from '@/components/NavBar'
+export default {
+  components: {
+    navBar: navBar,
+  }
+}
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
@@ -14,7 +24,7 @@
 }
 
 #app {
-  padding: 100px;
+  padding: 50px;
 }
 
 body {
