@@ -29,26 +29,16 @@ export default {
 }
 
 #app {
-  /* padding: 50px; */
   background-image: url(assets/background.jpg);
-   /* Add the blur effect */
-  /* filter: blur(8px); */
-  /* -webkit-filter: blur(8px); */
-
-  
-  /* Full height */
-  height: 100%; 
-  width: auto;
-  
-  /* Center and scale the image nicely */
+  height: 100vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#app div {
-  backdrop-filter: blur(10px);
-
+#app > div {
+  backdrop-filter: blur(30px);
 }
 
 </style>

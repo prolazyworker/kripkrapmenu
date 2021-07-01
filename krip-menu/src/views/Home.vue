@@ -5,41 +5,41 @@
         <h1>Pije</h1>
         <img id='logo' src="@/assets/krip-krap.png" alt="">
       </div>
-      <div id="menu">
+      <div class="menu">
         <div class="flex-row menu-option">
-          <p>Kafe/machiato<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span style="letter-spacing: 3px;">......................................</span></p><span>0.70€</span>
+          <p>Kafe/machiato<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">......................................</span></p><span>0.70€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Kapuçino<img src="@/assets/menu-items/cappuccino.png" alt="menu-item"> <span style="letter-spacing: 3px;">..............................................</span></p><span>1.00€</span>
+          <p>Kapuçino<img src="@/assets/menu-items/cappuccino.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..............................................</span></p><span>1.00€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Frape<img id="frappe" src="@/assets/menu-items/frappe.png" alt="menu-item"> <span style="letter-spacing: 3px;">..................................................</span></p><span>2.00€</span>
+          <p>Frape<img id="frappe" src="@/assets/menu-items/frappe.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..................................................</span></p><span>2.00€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Çokollatë e nxehtë<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span style="letter-spacing: 3px;">...............................</span></p><span>1.50€</span>
+          <p>Çokollatë e nxehtë<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">...............................</span></p><span>1.50€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Kakao<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span style="letter-spacing: 3px;">..................................................</span></p><span>4.99€</span>
+          <p>Kakao<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..................................................</span></p><span>4.99€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Ujë natyral ose i gazuar<img id="water" src="@/assets/menu-items/water.png" alt="menu-item"><span style="letter-spacing: 3px;">.........................</span></p><span>1.00€</span>
+          <p>Ujë natyral ose i gazuar<img id="water" src="@/assets/menu-items/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................</span></p><span>1.00€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Çaj i ftohtë<img id="iceTea" src="@/assets/menu-items/ice-tea.png" alt="menu-item"><span style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
+          <p>Çaj i ftohtë<img id="iceTea" src="@/assets/menu-items/ice-tea.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Fanta<img id="fanta" src="@/assets/menu-items/fanta.png" alt="menu-item"><span style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
+          <p>Fanta<img id="fanta" src="@/assets/menu-items/fanta.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Coca Cola<img id="cola" src="@/assets/menu-items/cola.png" alt="menu-item"><span style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
+          <p>Coca Cola<img id="cola" src="@/assets/menu-items/cola.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Bravo<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span style="letter-spacing: 3px;">....................................................</span></p>
+          <p>Bravo<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p>
           <span>1.00€</span>
           <span id="alternativeText">(me shije të ndryshme)</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Redbull<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
+          <p>Redbull<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
         </div>
       </div>
       <div class="bottom">
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="menu-page">
+    <!-- <div class="menu-page">
       <div id="top">
         <h1 id="frozenYogurt">Frozen Yogurt</h1>
         <img id='logo' src="@/assets/krip-krap.png" alt="">
@@ -56,7 +56,7 @@
       <div id="menu">
 
       </div>
-    </div>
+    </div> -->
 
   </div>
 </template>
@@ -83,6 +83,7 @@ export default {
 .menu-page {
   width: 1000px;
   padding: 50px;
+  border-radius: 12px;
   margin: 25px auto;
   background: #f8eaff;
   transition-property: box-shadow;
@@ -198,7 +199,7 @@ h1 {
   width: 350px;
   height: 350px;
   position: absolute;
-  right: 0;
+  right: -50px;
   top: -85px;
 }
 
@@ -208,7 +209,7 @@ h1 {
   margin: 0 0 100px;
 }
 
-#menu {
+.menu {
   font-family: 'Hind Guntur', sans-serif;
   color: #233dff;
   font-size: 1.4em;
@@ -232,5 +233,110 @@ h1 {
   width: 75px;
 }
 
+
+/* RESPONSIVENESS */
+
+@media (max-width: 1110px) {
+  .menu-page {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .menu {
+    height: auto;
+    align-content: center;
+  }
+}
+
+@media (max-width: 746px) {
+  h1 {
+    font-size: 64px;
+  }
+  
+  #logo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 575px) {
+  .menu-page {
+      margin: 10px auto;
+    }
+
+    #logo {
+      width: 200px;
+      height: 200px;
+      top: -60px;
+    }
+
+    #top {
+      margin: 0 0 25px;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+  .spacing{
+    display: none;
+  }
+  .menu-option {
+    background: rgb(193, 154, 202);
+    color: #fff;
+    padding: 0 5px;
+    height: 38px;
+    widows: 100%;
+    width: -webkit-fill-available;
+  }
+
+  #alternativeText {
+    top: 35px;
+    left: 0;
+    color: rgb(193, 154, 202);
+  }
+}
+
+@media (max-width: 515px) {
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 417px) {
+  .menu-option:nth-child(6){
+    height: auto;
+  }
+}
+
+@media (max-width: 385px) {
+  #top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #logo {
+    position: initial;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 371px) {
+  .menu-option:nth-child(4) {
+    height: auto;
+  }
+}
+
+@media (max-width: 340px) {
+  .menu-option {
+    font-size: 18px;
+    height: 29px;
+  }
+}
 
 </style>
