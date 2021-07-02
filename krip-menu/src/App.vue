@@ -2,14 +2,18 @@
   <div id="main">
     <navBar></navBar>
     <router-view/>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import navBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
+
 export default {
   components: {
     navBar: navBar,
+    Footer: Footer,
   }
 }
 </script>
@@ -28,17 +32,29 @@ export default {
   font-size: 100%;
 }
 
-#app {
-  background-image: url(assets/background.jpg);
+body,
+html {
+  width: auto;
   height: 100vh;
+}
+
+#app {
+  min-height: 100%;
+  width:100vw;
+  max-width: 100%;
+  /* background-image: url(assets/background.jpg); */
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background: rgb(228, 218, 231);
 }
 
 #app > div {
-  backdrop-filter: blur(30px);
+  min-height: 100%;
+  width:100vw;
+  max-width: 100%;
+  /* backdrop-filter: blur(30px); */
 }
 
 </style>
