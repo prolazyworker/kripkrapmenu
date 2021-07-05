@@ -500,6 +500,7 @@ export default {
 
 .menu-option:hover img {
   opacity: 100%;
+  opacity: 100% !important;
   top: -65px;
 }
 
