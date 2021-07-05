@@ -34,7 +34,7 @@
           <p>Coca Cola<img id="cola" src="@/assets/menu-items/cola.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
         </div>
         <div class="flex-row menu-option">
-          <p>Bravo<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p>
+          <p>Bravo<img id="bravo" src="../../public/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p>
           <span>1.00€</span>
           <span class="alternativeText">(me shije të ndryshme)</span>
         </div>
@@ -861,7 +861,7 @@ h1 {
 @media (max-width: 348px) {
   .menu-page:first-child .menu > div:first-child {
     width: auto;
-    
+
   }
   .menu-page:first-child .menu > div:first-child span{ 
     margin-left: auto;
