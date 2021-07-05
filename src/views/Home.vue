@@ -518,8 +518,10 @@ export default {
 
 h1 {
   font-family: 'Playfair Display', serif;
+  font-family: 'Moontime';
+
   font-size: 7em;
-  font-weight: 800;
+  font-weight: 400;
   color: #e7018f;
   cursor: context-menu;
   width: 72%;
