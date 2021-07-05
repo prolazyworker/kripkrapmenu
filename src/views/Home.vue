@@ -322,7 +322,7 @@
             <span>1.00€</span>
           </div>  
         </div>
-        <h1 style="font-size: 84px; width: auto;">Smoothies / Milkshake</h1>
+        <h1 id="smoothies">Smoothies / Milkshake</h1>
         <div class="menu-2">
           <div class="flex-row menu-option">
             <p>Smoothie banane, luleshtrydhe, froyo<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...</span></p>
@@ -511,8 +511,6 @@ export default {
   height: auto;
 }
 
-
-
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 7em;
@@ -520,6 +518,11 @@ h1 {
   color: #e7018f;
   cursor: context-menu;
   width: 72%;
+}
+
+#smoothies {
+  font-size: 84px;
+  width: auto;
 }
 
 .logo {
@@ -635,12 +638,18 @@ h1 {
   font-size: 34px;
 }
 
-
 /* RESPONSIVENESS */
 
 @media (max-width: 1110px) {
   .menu-page {
     width: 90%;
+  }
+}
+
+@media (max-width: 1101px) {
+  #smoothies {
+    font-size: 74px;
+    text-align: center;
   }
 }
 
@@ -681,10 +690,21 @@ h1 {
   .ul-options:nth-child(2) {
     margin-top: 30px;
   }
+
+  .menu-1, .menu-2 {
+    flex-direction: column;
+    flex-wrap: unset;
+    height: auto;
+    align-items: center;
+  }
+
+
 }
 
-@media (max-width: 912px) {
-  
+@media (max-width: 973px) {
+  .menu-page:nth-child(5) > div:nth-child(2){
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 781px) {
@@ -759,19 +779,34 @@ h1 {
 
 }
 
+@media (max-width: 525px) {
+  #smoothies {
+    font-size: 48px;;
+  }
+
+
+}
+
 @media (max-width: 515px) {
   .bottom {
     display: flex;
     flex-direction: column;
   }
-  
+
+  .menu-page .menu-title {
+    font-size: 46px;
+  }
 }
+  
 
 @media (max-width: 417px) {
   .menu-page:nth-child(4) .menu-option{
     height: auto;
   }
-  
+
+  #smoothies {
+    font-size: 32px;;
+  }
 }
 
 @media (max-width: 390px) {
@@ -824,8 +859,20 @@ h1 {
 }
 
 @media (max-width: 348px) {
+  .menu-page:first-child .menu > div:first-child {
+    width: auto;
+    
+  }
+  .menu-page:first-child .menu > div:first-child span{ 
+    margin-left: auto;
+  }
+
   .menu-page:nth-child(5) .crepes:first-child .menu-option:first-of-type .alternativeText{
     top: 85px;
   }
+
+
 }
+
+
 </style>
