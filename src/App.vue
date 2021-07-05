@@ -23,6 +23,12 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
 
+/* @font-face {
+  font-family: "Merienda";
+  src: local("Merienda"),
+   url(./fonts/Merienda/Merienda-Regular.ttf) format("truetype");
+} */
+
 
 * {
   padding: 0;

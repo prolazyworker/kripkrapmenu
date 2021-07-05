@@ -371,7 +371,6 @@ export default {
 </script>
 
 <style scoped>
-
 :root {
   --opacity-full: 100%;
 }
@@ -408,16 +407,16 @@ export default {
 }
 
 .menu-1 {
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   height: 306px;
   width: -webkit-fill-available;
 }
 
 .menu-2 {
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   height: 306px;
   width: -webkit-fill-available;
@@ -699,7 +698,6 @@ h1 {
 
   .menu-1, .menu-2 {
     flex-direction: column;
-    flex-wrap: unset;
     height: auto;
     align-items: center;
   }
@@ -734,10 +732,6 @@ h1 {
 }
 
 @media (max-width: 575px) {
-  .menu-page {
-      margin: 10px auto;
-    }
-
     .logo {
       width: 150px;
       height: 150px;
