@@ -371,6 +371,11 @@ export default {
 </script>
 
 <style scoped>
+
+:root {
+  --opacity-full: 100%;
+}
+
 .menu-main {
   display: flex;
   flex-direction: column;
@@ -499,8 +504,8 @@ export default {
 }
 
 .menu-option:hover img {
-  opacity: 100%;
-  opacity: 100% !important;
+  /* opacity: 100%; */
+  opacity: var(--opacity-full);
   top: -65px;
 }
 
