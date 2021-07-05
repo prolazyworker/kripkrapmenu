@@ -17,7 +17,7 @@ export default {
 
 .navBar {
     width: 100%;
-    padding: 25px;
+    padding: 25px 25px 0;
     display: flex;
     justify-content: center;
 }
