@@ -21,7 +21,6 @@ export default {
         flex-direction: column;
         align-items: center;
         font-family: 'Hind Guntur', sans-serif;
-
     }
 
     #footer a {

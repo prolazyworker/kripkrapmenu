@@ -50,10 +50,192 @@
 
     <div class="menu-page">
       <div class="top">
-        <h1 class="menu-title" style="width: 75px;">Frozen Yogurt</h1>
+        <h1 class="menu-title">Toppings</h1>
         <img class='logo' src="@/assets/krip-krap.png" alt="">
       </div>
       <div class="menu">
+        <div class="flex-column">
+          <h2 class="submenu-title">FRUTA</h2>
+          <div class="flex-row topping-main">
+            <div class="flex-column topping">
+              <img :src="topping_1" alt="Topping">
+              <p>Shegë</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_2" alt="Topping">
+              <p>Kumbull</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_3" alt="Topping">
+              <p>Luleshtrydhe</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_4" alt="Topping">
+              <p>Banane</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_5" alt="Topping">
+              <p>Boronicë</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_6" alt="Topping">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_7" alt="Topping">
+              <p>Rrush</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_8" alt="Topping">
+              <p>Dardhë</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_9" alt="Topping">
+              <p>Pjepër</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_10" alt="Topping">
+              <p>Ananas</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_11" alt="Topping">
+              <p>Mjedër</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_12" alt="Topping">
+              <p>Manaferra</p>
+            </div>
+            <div class="flex-column topping">
+              <img :src="topping_13" alt="Topping">
+              <p>Kiwi</p>
+            </div>
+          </div>
+          <h2 class="submenu-title">RECEL / JAM</h2>
+
+          <div class="flex-row jams-main">
+            <div class="flex-column jam">
+              <img :src="jam_1" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_2" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_3" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_4" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_5" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_6" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_7" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_8" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_9" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_10" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_11" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+            <div class="flex-column jam">
+              <img :src="jam_12" alt="Jam">
+              <p>Qërshi</p>
+            </div>
+          </div>
+          <h2 class="submenu-title">SALSA / SAUCES
+</h2>
+
+          <div class="flex-row sauces-main">
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Nutella</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Rafaello</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Lacta</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Grisbi Lemon</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Bacio Perugina</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Çokollatë e Bardhë</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Çokollatë Zezë</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Kinder Bueno</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Oreo</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Otto Biscotto</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Snickers</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Krem Pistak</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Karamel</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Cookies</p>
+            </div>
+            <div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Gjalp Kikiriku</p>
+            </div><div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Unicorn</p>
+            </div><div class="flex-column sauce">
+              <img :src="sauce_1" alt="Sauce">
+              <p>Bubblegum</p>
+            </div>
+          </div>
+
+          
+        </div>
       </div>
       <div class="bottom">
         <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrapfrozen</a></p>
@@ -365,12 +547,42 @@
 export default {
   data() {
     return {
+      topping_1: require('../assets/menu-toppings/Asset 1.svg'),
+      topping_2: require('../assets/menu-toppings/Asset 3.svg'),
+      topping_3: require('../assets/menu-toppings/Asset 4.svg'),
+      topping_4: require('../assets/menu-toppings/Asset 5.svg'),
+      topping_5: require('../assets/menu-toppings/Asset 7.svg'),
+      topping_6: require('../assets/menu-toppings/Asset 8.svg'),
+      topping_7: require('../assets/menu-toppings/Asset 11.svg'),
+      topping_8: require('../assets/menu-toppings/Asset 12.svg'),
+      topping_9: require('../assets/menu-toppings/Asset 13.svg'),
+      topping_10: require('../assets/menu-toppings/Asset 16.svg'),
+      topping_11: require('../assets/menu-toppings/Asset 17.svg'),
+      topping_12: require('../assets/menu-toppings/Asset 18.svg'),
+      topping_13: require('../assets/menu-toppings/Asset 19.svg'),
+
+      jam_1: require('../assets/menu-toppings/Asset 21.svg'),
+      jam_2: require('../assets/menu-toppings/Asset 21.svg'),
+      jam_3: require('../assets/menu-toppings/Asset 22.svg'),
+      jam_4: require('../assets/menu-toppings/Asset 24.svg'),
+      jam_5: require('../assets/menu-toppings/Asset 25.svg'),
+      jam_6: require('../assets/menu-toppings/Asset 26.svg'),
+      jam_7: require('../assets/menu-toppings/Asset 27.svg'),
+      jam_8: require('../assets/menu-toppings/Asset 28.svg'),
+      jam_9: require('../assets/menu-toppings/Asset 29.svg'),
+      jam_10: require('../assets/menu-toppings/Asset 31.svg'),
+      jam_11: require('../assets/menu-toppings/Asset 31.svg'),
+      jam_12: require('../assets/menu-toppings/Asset 30.svg'),
+
+      sauce_1: require('../assets/menu-toppings/Sauce.svg'),
     }
   }
 }
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
+
 :root {
   --opacity-full: 100%;
 }
@@ -445,7 +657,68 @@ export default {
 
 .bottom a:hover {
   color: hsl(250, 100%, 60%);
+}
 
+.topping-main, .jams-main, .sauces-main {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.topping, .jam, .sauce {
+  width: auto;
+  font-size: 12px;
+  color: #000;
+  align-items: center;
+  cursor: context-menu;
+  margin: 5px;
+}
+
+.topping img, .jam img{
+  width: 45px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.sauce {
+  margin: 0;
+}
+
+.sauce img, .sauce p {
+  width: 50px;
+  height: 70px;
+  text-align: center;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.sauce p {
+  margin: 5px 0 0 0;
+  line-height: 15px;
+}
+
+.jam img{
+  width: 55px;
+}
+
+.topping:first-child img {
+   transform: scale(1.4) translateY(5px);
+}
+
+.topping:first-child:hover img {
+   transform: scale(1.6) translateY(5px);
+}
+
+.topping:hover img {
+   transform: scale(1.15);
+}
+
+.submenu-title {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-family: 'Hind Guntur', sans-serif;
 }
 
 #frappe {
@@ -467,14 +740,12 @@ export default {
 #iceTea {
   width: 50px;
   transform: translate(-5px, -50px);
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
   filter: drop-shadow(0px 5px 3px rgba(34, 34, 34, 0.15));
 }
 
 #fanta {
   width: 25px;
   transform: translateY(-5px);
-
 }
 
 #cola {
@@ -503,7 +774,6 @@ export default {
 }
 
 .menu-option:hover img {
-  /* opacity: 100%; */
   opacity: var(--opacity-full);
   top: -65px;
 }
@@ -512,14 +782,13 @@ export default {
   background: #fdfefe;
 }
 
-.menu-page:nth-child(5) .menu {
+.menu-page:nth-child(5) .menu, .menu-page:nth-child(2) .menu {
   height: auto;
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
   font-family: 'Moontime';
-
   font-size: 7em;
   font-weight: 400;
   color: #e7018f;
@@ -561,7 +830,6 @@ h1 {
 .menu-page:last-child .menu {
   flex-wrap: nowrap;
 }
-
 
 .menu-page:nth-child(3) .menu, .menu-page:nth-child(6) .menu, .menu-page:last-child .menu {
   height: auto;
@@ -634,7 +902,6 @@ h1 {
   padding: 10px 15px;
   font-size: 24px;
   font-family: 'Hind Guntur', sans-serif;
-
 }
 
 .crepes {
@@ -704,7 +971,9 @@ h1 {
     align-items: center;
   }
 
-
+  .menu-page:nth-child(2) .menu {
+    align-content: unset;
+  }
 }
 
 @media (max-width: 973px) {
@@ -734,28 +1003,28 @@ h1 {
 }
 
 @media (max-width: 575px) {
-    .logo {
-      width: 150px;
-      height: 150px;
-      top: -60px;
-    }
+  .logo {
+    width: 150px;
+    height: 150px;
+    top: -60px;
+  }
 
-    .top {
-      margin: 0 0 25px;
-    }
+  .top {
+    margin: 0 0 25px;
+  }
 
-    .ul-options {
-      width: 100%;
-      margin: 0;
-    }
+  .ul-options {
+    width: 100%;
+    margin: 0;
+  }
 
-    .crepes-main {
-      width: auto;
-    }
+  .crepes-main {
+    width: auto;
+  }
 
-    .crepes {
-      width: -webkit-fill-available;
-    }
+  .crepes {
+    width: -webkit-fill-available;
+  }
 }
 
 
@@ -785,8 +1054,6 @@ h1 {
   #smoothies {
     font-size: 48px;;
   }
-
-
 }
 
 @media (max-width: 515px) {
@@ -872,9 +1139,8 @@ h1 {
   .menu-page:nth-child(5) .crepes:first-child .menu-option:first-of-type .alternativeText{
     top: 85px;
   }
-
-
 }
+
 
 
 </style>
