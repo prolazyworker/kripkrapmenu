@@ -709,7 +709,7 @@ export default {
    transform: scale(1.6) translateY(5px);
 }
 
-.topping:hover img {
+.topping:hover img, .jam:hover img, .sauce:hover img {
    transform: scale(1.15);
 }
 
@@ -1061,10 +1061,6 @@ h1 {
     display: flex;
     flex-direction: column;
   }
-
-  .menu-page .menu-title {
-    font-size: 46px;
-  }
 }
   
 
@@ -1085,11 +1081,14 @@ h1 {
 }
 
 @media (max-width: 385px) {
+  .top .menu-title {
+    width: auto;
+  }
   .top {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 
   .logo {
