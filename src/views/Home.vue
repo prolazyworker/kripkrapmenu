@@ -110,8 +110,8 @@
               <p>Kiwi</p>
             </div>
           </div>
-          <h2 class="submenu-title">RECEL / JAM</h2>
 
+          <h2 class="submenu-title">RECEL / JAM</h2>
           <div class="flex-row jams-main">
             <div class="flex-column jam">
               <img :src="jam_1" alt="Jam">
@@ -119,52 +119,51 @@
             </div>
             <div class="flex-column jam">
               <img :src="jam_2" alt="Jam">
-              <p>Qërshi</p>
+              <p>Boronicë e Kuqe</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_3" alt="Jam">
-              <p>Qërshi</p>
+              <p>Shalqi</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_4" alt="Jam">
-              <p>Qërshi</p>
+              <p>Pjeshkë</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_5" alt="Jam">
-              <p>Qërshi</p>
+              <p>Luleshtrydhe</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_6" alt="Jam">
-              <p>Qërshi</p>
+              <p>Mjedër</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_7" alt="Jam">
-              <p>Qërshi</p>
+              <p>Fik</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_8" alt="Jam">
-              <p>Qërshi</p>
+              <p>Manaferrë</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_9" alt="Jam">
-              <p>Qërshi</p>
+              <p>Kumbull</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_10" alt="Jam">
-              <p>Qërshi</p>
+              <p>Boronicë e zezë</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_11" alt="Jam">
-              <p>Qërshi</p>
+              <p>Amarena</p>
             </div>
             <div class="flex-column jam">
               <img :src="jam_12" alt="Jam">
-              <p>Qërshi</p>
+              <p>Fruit Pasion</p>
             </div>
           </div>
-          <h2 class="submenu-title">SALSA / SAUCES
-</h2>
 
+          <h2 class="submenu-title">SALSA / SAUCES</h2>
           <div class="flex-row sauces-main">
             <div class="flex-column sauce">
               <img :src="sauce_1" alt="Sauce">
@@ -233,15 +232,13 @@
               <p>Bubblegum</p>
             </div>
           </div>
-
-          
         </div>
       </div>
       <div class="bottom">
         <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrapfrozen</a></p>
         <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
       </div>
-    </div> 
+    </div>
 
     <div class="menu-page">
       <div class="top">
@@ -280,7 +277,7 @@
         <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrapfrozen</a></p>
         <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
       </div>
-    </div> 
+    </div>
 
     <div class="menu-page">
       <div class="top">
