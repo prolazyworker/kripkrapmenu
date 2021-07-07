@@ -1,7 +1,7 @@
 <template>
-    <div id="footer">
-        <p>Made by Nesa Media. Learn more about us at : <a href="https://nesamedia.website">Nesa Media</a></p>
-    </div>
+    <footer id="footer">
+        <p>Made by : Nesa Media. Learn more about us at : <a href="https://nesamedia.website">Nesa Media</a></p>
+    </footer>
 </template>
 <script>
 export default {
@@ -29,6 +29,6 @@ export default {
 
     #footer a:hover {
         color: hsl(250, 100%, 90%);
-    }
+    } 
     
 </style>
