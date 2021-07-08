@@ -26,7 +26,7 @@ export default {
             menuPage.style.transitionDuration  = '0.2s';
           });
         }, 700)
-      }, 250)
+      }, 100)
     },
   },
   mounted() {

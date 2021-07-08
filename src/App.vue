@@ -18,18 +18,7 @@ export default {
   components: {
     navBar: navBar,
     Footer: Footer,
-  },
-  methods: {
-    moveUp(){
-      document.getElementById('app').scrollIntoView();
-    },
-    loadCards() {
-      setTimeout(() => this.isLoaded = true, 500);
-    },
-  },
-  mounted() {
-    this.loadCards();
-  },
+  }
 }
 
 var mybutton = document.getElementsByClassName("go-top");
@@ -103,6 +92,24 @@ html {
   position: relative;
   min-height: 100vh;
 }
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #f8eaff;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8eaff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(193, 154, 202); 
+  border-radius: 12px;
+
+}
+
 
 .content-wrap {
   padding-bottom: var(--footer-height);
