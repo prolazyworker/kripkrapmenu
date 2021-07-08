@@ -609,7 +609,7 @@ export default {
   margin: 25px auto;
   background: #f8eaff;
   transition-property: box-shadow, opacity, transform;
-  transition-duration: 0.8s;
+  transition-duration: var(--load-page-transition);
   transform: translateY(75px);
 }
 

@@ -53,6 +53,7 @@ function topFunction() {
 :root {
   --footer-height: 60px;
   --opacity-full: 100%;
+  --load-page-transition: 0.5s;
 }
 
 * {

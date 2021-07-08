@@ -53,7 +53,7 @@ export default {
   background: #f8eaff;
   transform: translateY(75px);
   transition-property: box-shadow, opacity, transform;
-  transition-duration: 0.8s;
+  transition-duration: var(--load-page-transition);
 }
 
 .loaded {
