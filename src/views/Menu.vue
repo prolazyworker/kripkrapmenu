@@ -1,6 +1,6 @@
 <template>
     <div class="menu-main">
-        <div class="menu-page">
+        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
             <div class="top">
                 <h1 class="menu-title">Pije</h1>
                 <img class='logo' src="@/assets/krip-krap.png" alt="">
@@ -47,8 +47,8 @@
                 <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
             </div>
         </div>
-
-        <div class="menu-page">
+        
+        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
             <div class="top">
                 <h1 class="menu-title">Toppings</h1>
                 <img class='logo' src="@/assets/krip-krap.png" alt="">
@@ -240,7 +240,7 @@
             </div>
         </div>
 
-        <div class="menu-page">
+        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
             <div class="top">
                 <h1 class="menu-title">Ice Cream</h1>
                 <img class='logo' src="@/assets/krip-krap.png" alt="">
@@ -279,7 +279,7 @@
             </div>
         </div>
 
-        <div class="menu-page">
+        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
             <div class="top">
                 <h1 class="menu-title">Waffles</h1>
                 <img class='logo' src="@/assets/krip-krap.png" alt="">
@@ -324,7 +324,7 @@
         </div>
         </div>
 
-        <div class="menu-page">
+        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
         <div class="top">
             <h1 class="menu-title">Pancakes</h1>
             <img class='logo' src="@/assets/krip-krap.png" alt="">
@@ -382,7 +382,7 @@
         </div>
         </div>
 
-        <div class="menu-page">
+        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
         <div class="top">
             <h1 class="menu-title">Crepes</h1>
             <img class='logo' src="@/assets/krip-krap.png" alt="">
@@ -466,7 +466,7 @@
         </div>
         </div>
 
-        <div class="menu-page">
+        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
             <div class="top">
                 <h1 class="menu-title">Juices</h1>
                 <img class='logo' src="@/assets/krip-krap.png" alt="">
@@ -540,6 +540,8 @@
 export default {
   data() {
     return {
+        isLoaded: false,
+
         topping_1: require('../assets/menu-toppings/Asset 1.svg'),
         topping_2: require('../assets/menu-toppings/Asset 3.svg'),
         topping_3: require('../assets/menu-toppings/Asset 4.svg'),
@@ -569,7 +571,15 @@ export default {
 
         sauce_1: require('../assets/menu-toppings/Sauce.svg'),
     }
-  }
+  },
+  methods: {
+      loadCards() {
+          setTimeout(() => this.isLoaded = true, 500);
+      },
+  },
+  mounted() {
+      this.loadCards();
+  },
 }
 </script>
 
@@ -580,6 +590,24 @@ export default {
   --opacity-full: 100%;
 }
 
+.menu-page {
+  width: 1000px;
+  padding: 50px;
+  border-radius: 12px;
+  opacity: 0;
+  margin: 25px auto;
+  background: #f8eaff;
+  transition-property: box-shadow, opacity, transform;
+  transition-duration: 0.8s;
+  transform: translateY(75px);
+}
+
+.menu-loaded {
+  opacity: 100%;
+  transform: translateY(0);
+
+}
+
 .menu-main {
   display: flex;
   flex-direction: column;
@@ -587,21 +615,9 @@ export default {
   align-content: center;
 }
 
-.menu-page {
-  width: 1000px;
-  padding: 50px;
-  border-radius: 12px;
-  margin: 25px auto;
-  background: #f8eaff;
-  transition-property: box-shadow;
-  transition-duration: 0.2s;
-}
-
 .menu-page:hover {
   box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 
 .menu-1 {
   justify-content: space-between;
