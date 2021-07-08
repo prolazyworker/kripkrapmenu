@@ -54,7 +54,6 @@ function topFunction() {
   url(./assets/fonts/moontime.ttf) format("truetype");
 } 
 
-
 :root {
   --footer-height: 60px;
 }

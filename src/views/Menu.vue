@@ -47,7 +47,7 @@
                 <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
             </div>
         </div>
-        
+
         <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
             <div class="top">
                 <h1 class="menu-title">Toppings</h1>
@@ -603,7 +603,7 @@ export default {
 }
 
 .menu-loaded {
-  opacity: 100%;
+  opacity: var(--opacity-full);
   transform: translateY(0);
 
 }
