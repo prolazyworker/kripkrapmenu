@@ -22,7 +22,13 @@ export default {
   methods: {
     moveUp(){
       document.getElementById('app').scrollIntoView();
-    }
+    },
+    loadCards() {
+      setTimeout(() => this.isLoaded = true, 500);
+    },
+  },
+  mounted() {
+    this.loadCards();
   },
 }
 
@@ -45,7 +51,6 @@ function topFunction() {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 @font-face {
@@ -56,6 +61,7 @@ function topFunction() {
 
 :root {
   --footer-height: 60px;
+  --opacity-full: 100%;
 }
 
 * {

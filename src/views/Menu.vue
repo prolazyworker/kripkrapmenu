@@ -574,7 +574,15 @@ export default {
   },
   methods: {
       loadCards() {
-          setTimeout(() => this.isLoaded = true, 500);
+        setTimeout(() => { 
+          this.isLoaded = true,
+            setTimeout(() => {
+              var menu = document.getElementsByClassName("menu-page")
+                menu.forEach(menuPage => {
+                  menuPage.style.transitionDuration  = '0.2s';
+                });
+              }, 700)
+            }, 250)
       },
   },
   mounted() {
@@ -585,10 +593,6 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
-
-:root {
-  --opacity-full: 100%;
-}
 
 .menu-page {
   width: 1000px;
