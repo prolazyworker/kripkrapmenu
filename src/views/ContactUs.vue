@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 export default {
     data() {
         return {
@@ -19,29 +18,8 @@ export default {
                 email: '',
                 topic: '',
                 message: '',
-            },
-        }
-    },
-    methods: {
-        sendMail() {
-            Email.send({
-                Host : "smtp.yourisp.com",
-                Username : form.name,
-                Password : form.email,
-                To : 'them@website.com',
-                From : "you@isp.com",
-                Subject : form.topic,
-                Body : form.messsage
-            }).then(
-                message => alert(message)
-            );  
+            }
         }
     }
-    
 }
 </script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-
-<style lang="">
-    
-</style>

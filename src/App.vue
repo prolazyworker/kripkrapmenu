@@ -175,7 +175,7 @@ footer {
 
 @media (max-width: 428px) {
   :root {
-    --footer-height: 90px;
+    --footer-height: 105px;
   }
 }
 
