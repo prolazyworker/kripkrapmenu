@@ -9,8 +9,9 @@
                 <a id="yt" href="#"><i class="fab fa-youtube"></i></a>
                 <a id="inst" href="#"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="">
+            <div class="flex-column">
                 <p>Made by : <a href="https://nesamedia.website">Nesa Media</a></p>
+                <router-link to="/contactUs">Contact Us</router-link>
             </div>
         </div>
     </footer>
@@ -38,6 +39,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 #footer a {

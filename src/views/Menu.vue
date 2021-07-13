@@ -799,6 +799,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-family: 'Moontime';
   font-size: 7em;
+  line-height: 1;
   font-weight: 400;
   color: #e7018f;
   cursor: context-menu;
@@ -1001,7 +1002,7 @@ h1 {
 
 @media (max-width: 746px) {
   h1 {
-    font-size: 64px;
+    font-size: 72px;
   }
   
   .logo {
@@ -1061,7 +1062,7 @@ h1 {
 
 @media (max-width: 525px) {
   #smoothies {
-    font-size: 48px;;
+    font-size: 62px;;
   }
 }
 
@@ -1079,7 +1080,7 @@ h1 {
   }
 
   #smoothies {
-    font-size: 32px;;
+    font-size: 54px;;
   }
 }
 

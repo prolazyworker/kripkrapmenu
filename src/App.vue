@@ -51,7 +51,7 @@ function topFunction() {
 } 
 
 :root {
-  --footer-height: 60px;
+  --footer-height: 83px;
   --opacity-full: 100%;
   --load-page-transition: 0.5s;
 }
@@ -175,7 +175,7 @@ footer {
 
 @media (max-width: 428px) {
   :root {
-    --footer-height: 105px;
+    --footer-height: 135px;
   }
 }
 

@@ -1,10 +1,21 @@
 <template>
     <div class="about-us-main">
-        <form @submit.prevent="sendMail">
-            <input type="text" name="Name" v-model="form.name" required autofocus/>
-            <input type="email" name="email" v-model="form.email"/>
-            <input type="text" name="Topic" v-model="form.topic"/>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+            <div>
+                <div data-netlify-recaptcha="true"></div>
+            </div>
         </form>
     </div>
 </template>
@@ -13,12 +24,7 @@
 export default {
     data() {
         return {
-            form: {
-                name:'',
-                email: '',
-                topic: '',
-                message: '',
-            }
+            
         }
     }
 }
