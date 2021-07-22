@@ -55,183 +55,127 @@
             </div>
             <div class="menu">
                 <div class="flex-column">
-                <h2 class="submenu-title">FRUTA</h2>
-                <div class="flex-row topping-main">
-                    <div class="flex-column topping">
-                    <img :src="topping_1" alt="Topping">
-                    <p>Shegë</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_2" alt="Topping">
-                    <p>Kumbull</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_3" alt="Topping">
-                    <p>Luleshtrydhe</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_4" alt="Topping">
-                    <p>Banane</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_5" alt="Topping">
-                    <p>Boronicë</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_6" alt="Topping">
-                    <p>Qërshi</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_7" alt="Topping">
-                    <p>Rrush</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_8" alt="Topping">
-                    <p>Dardhë</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_9" alt="Topping">
-                    <p>Pjepër</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_10" alt="Topping">
-                    <p>Ananas</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_11" alt="Topping">
-                    <p>Mjedër</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_12" alt="Topping">
-                    <p>Manaferra</p>
-                    </div>
-                    <div class="flex-column topping">
-                    <img :src="topping_13" alt="Topping">
-                    <p>Kiwi</p>
-                    </div>
-                </div>
+                  <h2 class="submenu-title">REÇEL / JAM</h2>
+                  <div class="flex-row jams-main">
+                      <div class="flex-column jam">
+                      <img :src="jam_1" alt="Jam">
+                      <p>Qërshi</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_2" alt="Jam">
+                      <p>Boronicë e Kuqe</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_3" alt="Jam">
+                      <p>Shalqi</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_4" alt="Jam">
+                      <p>Pjeshkë</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_5" alt="Jam">
+                      <p>Luleshtrydhe</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_6" alt="Jam">
+                      <p>Mjedër</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_7" alt="Jam">
+                      <p>Fik</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_8" alt="Jam">
+                      <p>Manaferrë</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_9" alt="Jam">
+                      <p>Kumbull</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_10" alt="Jam">
+                      <p>Boronicë e zezë</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_11" alt="Jam">
+                      <p>Amarena</p>
+                      </div>
+                      <div class="flex-column jam">
+                      <img :src="jam_12" alt="Jam">
+                      <p>Fruit Pasion</p>
+                      </div>
+                  </div>
 
-                <h2 class="submenu-title">RECEL / JAM</h2>
-                <div class="flex-row jams-main">
-                    <div class="flex-column jam">
-                    <img :src="jam_1" alt="Jam">
-                    <p>Qërshi</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_2" alt="Jam">
-                    <p>Boronicë e Kuqe</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_3" alt="Jam">
-                    <p>Shalqi</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_4" alt="Jam">
-                    <p>Pjeshkë</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_5" alt="Jam">
-                    <p>Luleshtrydhe</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_6" alt="Jam">
-                    <p>Mjedër</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_7" alt="Jam">
-                    <p>Fik</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_8" alt="Jam">
-                    <p>Manaferrë</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_9" alt="Jam">
-                    <p>Kumbull</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_10" alt="Jam">
-                    <p>Boronicë e zezë</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_11" alt="Jam">
-                    <p>Amarena</p>
-                    </div>
-                    <div class="flex-column jam">
-                    <img :src="jam_12" alt="Jam">
-                    <p>Fruit Pasion</p>
-                    </div>
-                </div>
-
-                <h2 class="submenu-title">SALSA / SAUCES</h2>
-                <div class="flex-row sauces-main">
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Nutella</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Rafaello</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Lacta</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Grisbi Lemon</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Bacio Perugina</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Çokollatë e Bardhë</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Çokollatë Zezë</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Kinder Bueno</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Oreo</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Otto Biscotto</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Snickers</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Krem Pistak</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Karamel</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Cookies</p>
-                    </div>
-                    <div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Gjalp Kikiriku</p>
-                    </div><div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Unicorn</p>
-                    </div><div class="flex-column sauce">
-                    <img :src="sauce_1" alt="Sauce">
-                    <p>Bubblegum</p>
-                    </div>
-                </div>
+                  <h2 class="submenu-title">SALSA / SAUCES</h2>
+                  <div class="flex-row sauces-main">
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Nutella</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Rafaello</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Lacta</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Grisbi Lemon</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Bacio Perugina</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Çokollatë e Bardhë</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Çokollatë Zezë</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Kinder Bueno</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Oreo</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Otto Biscotto</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Snickers</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Krem Pistak</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Karamel</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Cookies</p>
+                      </div>
+                      <div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Gjalp Kikiriku</p>
+                      </div><div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Unicorn</p>
+                      </div><div class="flex-column sauce">
+                      <img :src="sauce_1" alt="Sauce">
+                      <p>Bubblegum</p>
+                      </div>
+                  </div>
                 </div>
             </div>
             <div class="bottom">
@@ -556,7 +500,7 @@ export default {
         topping_12: require('../assets/menu-toppings/Asset 18.svg'),
         topping_13: require('../assets/menu-toppings/Asset 19.svg'),
 
-        jam_1: require('../assets/menu-toppings/Asset 21.svg'),
+        jam_1: require('../assets/menu-toppings/Asset 8.svg'),
         jam_2: require('../assets/menu-toppings/Asset 21.svg'),
         jam_3: require('../assets/menu-toppings/Asset 22.svg'),
         jam_4: require('../assets/menu-toppings/Asset 24.svg'),
@@ -787,9 +731,6 @@ export default {
   top: -65px;
 }
 
-.menu-page:nth-child(2) {
-  background: #fdfefe;
-}
 
 .menu-page:nth-child(5) .menu, .menu-page:nth-child(2) .menu {
   height: auto;

@@ -1,20 +1,20 @@
 <template>
     <div class="about-us-main">
         <form name="contact" action="POST" data-netlify="true">
-            <p>
-                <label>Your Name: <input type="text" name="name" /></label>   
-            </p>
-            <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-                <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
             <div>
-                <div data-netlify-recaptcha="true"></div>
+                <label>Your Name:</label>   
+                <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div>
+                <label>Your Email: </label>
+                <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div>
+                <label>Message: </label>
+                <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+            </div>
+            <div>
+                <button type="submit" value="Send Message">Send</button>
             </div>
         </form>
     </div>
@@ -29,3 +29,15 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid hsl(150, 82%, 35%);
+    margin: auto;
+}
+
+
+    
+</style>
