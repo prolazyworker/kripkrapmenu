@@ -481,11 +481,6 @@
 
 
 <script>
-
-document.getElementsByClassName('menu').addEventListener('touchstart', function(){
-  console.log('test')
-})
-
 export default {
   data() {
     return {
