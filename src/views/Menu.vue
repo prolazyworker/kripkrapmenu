@@ -481,9 +481,6 @@
 
 
 <script>
-function touchtest() {
-  console.log('testtt')
-}
 
 document.getElementsByClassName('menu').addEventListener('touchstart', function(){
   console.log('test')
