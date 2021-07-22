@@ -1,45 +1,45 @@
 <template>
     <div class="menu-main">
-        <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
+        <div onclick="" v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
             <div class="top">
                 <h1 class="menu-title">Pije</h1>
                 <img class='logo' src="@/assets/krip-krap.png" alt="">
             </div>
-            <div class="menu">
-                <div class="flex-row menu-option">
-                <p>Kafe/machiato<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">......................................</span></p><span>0.70€</span>
+            <div  class="menu">
+                <div onclick="" class="flex-row menu-option">
+                  <p>Kafe/machiato<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">......................................</span></p><span>0.70€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Kapuçino<img src="@/assets/menu-items/cappuccino.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..............................................</span></p><span>1.00€</span>
+                  <p>Kapuçino<img src="@/assets/menu-items/cappuccino.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..............................................</span></p><span>1.00€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Frape<img id="frappe" src="@/assets/menu-items/frappe.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..................................................</span></p><span>2.00€</span>
+                  <p>Frape<img id="frappe" src="@/assets/menu-items/frappe.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..................................................</span></p><span>2.00€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Çokollatë e nxehtë<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">...............................</span></p><span>1.50€</span>
+                  <p>Çokollatë e nxehtë<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">...............................</span></p><span>1.50€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Kakao<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..................................................</span></p><span>4.99€</span>
+                  <p>Kakao<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..................................................</span></p><span>4.99€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Ujë natyral ose i gazuar<img id="water" src="@/assets/menu-items/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................</span></p><span>1.00€</span>
+                  <p>Ujë natyral ose i gazuar<img id="water" src="@/assets/menu-items/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................</span></p><span>1.00€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Çaj i ftohtë<img id="iceTea" src="@/assets/menu-items/ice-tea.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
+                  <p>Çaj i ftohtë<img id="iceTea" src="@/assets/menu-items/ice-tea.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Fanta<img id="fanta" src="@/assets/menu-items/fanta.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
+                  <p>Fanta<img id="fanta" src="@/assets/menu-items/fanta.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Coca Cola<img id="cola" src="@/assets/menu-items/cola.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
+                  <p>Coca Cola<img id="cola" src="@/assets/menu-items/cola.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Bravo<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p>
-                <span>1.00€</span>
-                <span class="alternativeText">(me shije të ndryshme)</span>
+                  <p>Bravo<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p>
+                  <span>1.00€</span>
+                  <span class="alternativeText">(me shije të ndryshme)</span>
                 </div>
                 <div class="flex-row menu-option">
-                <p>Redbull<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
+                  <p>Redbull<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
                 </div>
             </div>
             <div class="bottom">
@@ -481,6 +481,14 @@
 
 
 <script>
+function touchtest() {
+  console.log('testtt')
+}
+
+document.getElementsByClassName('menu').addEventListener('touchstart', function(){
+  console.log('test')
+})
+
 export default {
   data() {
     return {
