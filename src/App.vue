@@ -4,7 +4,7 @@
     <div class="content-wrap">
       <router-view/>
     </div>
-    <button @click="moveUp" class="go-top" title="Go to top">Shko lart</button>
+    <!-- <button @click="moveUp" class="go-top" title="Go to top">Shko lart</button> -->
     <Footer></Footer>
   </div>
 </template>

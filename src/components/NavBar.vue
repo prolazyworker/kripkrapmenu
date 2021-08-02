@@ -2,7 +2,7 @@
     <div class="navBar">
         <router-link to="/">Home</router-link>
         <router-link to="/menu">Menu</router-link>
-        <router-link to="/">Galeria</router-link>
+        <router-link to="/gallery">Galeria</router-link>
         <router-link to="/about">Rreth Nesh</router-link>
     </div>
 </template>

@@ -23,6 +23,11 @@ const routes = [
     name: 'ContactUs',
     component: () => import(/* webpackChunkName: "contactUs" */ '../views/ContactUs.vue')
   },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: () => import(/* webpackChunkName: "gallery" */ '../views/Gallery.vue')
+  },
 ]
 
 const router = createRouter({

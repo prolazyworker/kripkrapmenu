@@ -5,9 +5,9 @@
                 <p style="font-family: 'Lobster', cursive;">Krip Krap Frozen</p>
             </div>
             <div id="socials">
-                <a id="fb" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a id="fb" href="https://www.facebook.com/nesamedia"><i class="fab fa-facebook-f"></i></a>
                 <a id="yt" href="#"><i class="fab fa-youtube"></i></a>
-                <a id="inst" href="#"><i class="fab fa-instagram"></i></a>
+                <a id="inst" href="https://www.instagram.com/nesamedia2020/"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="flex-column">
                 <p>Made by : <a href="https://nesamedia.website">Nesa Media</a></p>

@@ -7,54 +7,54 @@
           </div>
           <div  class="menu">
             <div onclick="" class="flex-row menu-option">
-              <p>Ujë pa gaz<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>0.70€</span>
+              <p>Ujë pa gaz<img id="water" src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>0.70€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Ujë ma gaz<img src="@/assets/menu-items/cappuccino.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..........................................</span></p><span>0.70€</span>
+              <p>Ujë me gaz<img id="carboWater" src="@/assets/menu-items/drinks/carboWater.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">..........................................</span></p><span>0.70€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Ice Tea<img id="frappe" src="@/assets/menu-items/frappe.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
+              <p>Ice Tea<img id="iceTea" src="@/assets/menu-items/drinks/ice-tea.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Coca Cola<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
+              <p>Coca Cola<img id="cola" src="@/assets/menu-items/drinks/cola.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Fanta<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">...................................................</span></p><span>1.00€</span>
+              <p>Fanta<img id="fanta" src="@/assets/menu-items/drinks/fanta.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">...................................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Schweppers<img id="water" src="@/assets/menu-items/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..........................................</span></p><span>1.00€</span>
+              <p>Schweppers<img id="schweppers" src="@/assets/menu-items/drinks/schweppers.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..........................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Sprite<img id="iceTea" src="@/assets/menu-items/ice-tea.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
+              <p>Sprite<img id="sprite" src="@/assets/menu-items/drinks/sprite.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Tonic<img id="fanta" src="@/assets/menu-items/fanta.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
+              <p>Tonic<img id="tonic" src="@/assets/menu-items/drinks/tonic.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Portokall<img id="cola" src="@/assets/menu-items/cola.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...............................................</span></p><span>1.00€</span>
+              <p>Portokall<img id="orange" src="@/assets/menu-items/drinks/orange.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...............................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Vishnje<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................................................</span></p>
+              <p>Vishnje<img id="cherry" src="@/assets/menu-items/drinks/cherry.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................................................</span></p>
               <span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Pjeshkë<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
+              <p>Pjeshkë<img id="peach" src="@/assets/menu-items/drinks/peach.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Mollë<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
+              <p>Mollë<img id="apple" src="@/assets/menu-items/drinks/apple.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Fruta Mali<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
+              <p>Fruta Mali<img id="wildBerries" src="@/assets/menu-items/drinks/wildBerries.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Ace<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.......................................................</span></p><span>1.00€</span>
+              <p>Ace<img id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.......................................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Frape<img id="redbull" src="@/assets/menu-items/redbull.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>1.20€</span>
+              <p>Frappe<img id="frappe" src="@/assets/menu-items/drinks/frappe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................................................</span></p><span>1.20€</span>
             </div>
           </div>
           <div class="bottom">
-            <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrapfrozen</a></p>
+            <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrap/drinksfrozen</a></p>
             <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
           </div>
         </div>
@@ -127,25 +127,25 @@
           </div>
           <div class="menu menu-yogurts">
             <div class="flex-row menu-option">
-              <p>Strawberry Frozen Yogurt<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.....................</span></p><span>1.00€</span>
+              <p>Strawberry Frozen Yogurt<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.....................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Nutella Frozen Yogurt<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...........................</span></p><span>1.00€</span>
+              <p>Nutella Frozen Yogurt<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...........................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Strawberry Nutella Frozen Yogurt<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........</span></p><span>1.00€</span>
+              <p>Strawberry Nutella Frozen Yogurt<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Passion Fruit Frozen Yogurt<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................</span></p><span>1.00€</span>
+              <p>Passion Fruit Frozen Yogurt<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Cherry Frozen Yogurt<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................</span></p><span>1.00€</span>
+              <p>Cherry Frozen Yogurt<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Wildfruits Frozen Yogurt<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.......................</span></p><span>1.00€</span>
+              <p>Wildfruits Frozen Yogurt<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.......................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>XL Frozen Yogurt<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................</span></p><span>2.00€</span>
+              <p>XL Frozen Yogurt<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................</span></p><span>2.00€</span>
             </div>
             <div class="ul-options frozen-yogurt-ico" >
               <img :src="ico_1" alt="Ico">
@@ -155,13 +155,13 @@
           <h1 id="iceCreamTitle">Ice Cream</h1>
           <div class="menu menu-ice-creams">
             <div class="flex-row menu-option">
-              <p>1/2 Porcion<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
+              <p>1/2 Porcion<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p><span>1.00€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>1 Porcion<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...............................................</span></p><span>1.50€</span>
+              <p>1 Porcion<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...............................................</span></p><span>1.50€</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Kupa<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>0.50€</span>
+              <p>Kupa<img src="@/assets/menu-items/drinks/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................................</span></p><span>0.50€</span>
             </div>
 
             <div class="ul-options frozen-yogurt-ico" >
@@ -181,50 +181,58 @@
             <img class='logo' src="@/assets/krip-krap.png" alt="">
           </div>
           <div class="menu menu-waffles">
-            <div class="flex-row menu-option">
-              <p>Fruit Waffle<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..........................................</span></p>
+            <div @mouseover="show_menu = true, waffle_menu = waffle_1" @mouseleave="show_menu = false, waffle_menu = ''" class="flex-row menu-option menu-hover-option">
+              <p>Fruit Waffle<span class="spacing" style="letter-spacing: 3px;">..........................................</span></p>
               <span>2.50€</span>
               <span class="alternativeText">Banane, kiwi, dredhëz, nutella</span>
             </div>
-            <div class="flex-row menu-option">
-              <p>Nutella Waffle<img src="@/assets/menu-items/cappuccino.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">.....................................</span></p>
+            <div @mouseover="show_menu = true, waffle_menu = waffle_2" @mouseleave="show_menu = false, waffle_menu = ''" class="flex-row menu-option menu-hover-option">
+              <p>Nutella Waffle<span class="spacing" style="letter-spacing: 3px;">.....................................</span></p>
               <span>2.00€</span>
               <span class="alternativeText">Nutella,keksa të bluar</span>
             </div>
-            <div class="flex-row menu-option">
-              <p>Oreo Waffle<img id="frappe" src="@/assets/menu-items/frappe.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
+            <div @mouseover="show_menu = true, waffle_menu = waffle_3" @mouseleave="show_menu = false, waffle_menu = ''"  class="flex-row menu-option menu-hover-option">
+              <p>Oreo Waffle<span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
               <span>2.50€</span>
               <span class="alternativeText">Çokollatë e bardhë, oreo & akullore</span>
             </div>
-            <div class="flex-row menu-option">
-              <p>Raffaelo Waffle<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">....................................</span></p>
+            <div @mouseover="show_menu = true, waffle_menu = waffle_4" @mouseleave="show_menu = false, waffle_menu = ''" class="flex-row menu-option menu-hover-option">
+              <p>Raffaelo Waffle<span class="spacing" style="letter-spacing: 3px;">....................................</span></p>
               <span>2.50€</span>
               <span class="alternativeText">Çokollatë e bardhë, kokos, rafaello</span>
             </div>
-            <div class="flex-row menu-option">
-              <p>Orange Delight Waffle<img class="hotChocolate" src="@/assets/menu-items/hot-chocolate.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">.........................</span></p>
+            <div @mouseover="show_menu = true, waffle_menu = waffle_5" @mouseleave="show_menu = false, waffle_menu = ''" class="flex-row menu-option menu-hover-option" value="">
+              <p>Orange Delight Waffle<span class="spacing" style="letter-spacing: 3px;">.........................</span></p>
               <span>2.00€</span>
               <span class="alternativeText">Çokollatë e bardhë, kokos, rafaello</span>
             </div>
-            <div class="ul-options frozen-yogurt-ico">
-              <img :src="ico_3" alt="Ico">
+            <!-- <img :src="waffle_1" class="waffle-show" alt="test" width="50px"> -->
+            <!-- <p>{{show_menu}}</p> -->
+            <!-- <p>{{waffle_menu}}</p> -->
+            <b class="hover-menu-text">HOVER/TAP ON A MENU</b>
+
+            <div class="waffle-container">
+              <img class="waffle-menu" :src="waffle_menu">
             </div>
+            <!-- <div class="ul-options frozen-yogurt-ico">
+              <img :src="ico_3" alt="Ico">
+            </div> -->
           </div>
 
           <h1 class="menu-title title-middle">Pancakes</h1>
           <div class="menu menu-pancakes">
             <div class="flex-row menu-option">
-              <p>Nutella Pancakes<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................................</span></p>
+              <p>Nutella Pancakes<img id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................................</span></p>
               <span>2.50€</span>
               <span class="alternativeText">Nutella, keks i bluar</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Krip Krap Pancakes<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...............................</span></p>
+              <p>Krip Krap Pancakes<img id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...............................</span></p>
               <span>2.00€</span>
               <span class="alternativeText">Mjatë, arra, lajthi</span>
             </div>
             <div class="flex-row menu-option">
-              <p>Fruit Waffle<img id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..........................................</span></p>
+              <p>Wild Berries Pancake<img id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................</span></p>
               <span>2.00€</span>
               <span class="alternativeText">Xhem i frutave të malit</span>
             </div>
@@ -248,7 +256,7 @@
         <div class="flex-row">
             <div class="menu ">
             <div class="flex-row menu-option">
-                <p>Shurup panje<img src="@/assets/menu-items/coffe.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">........................................</span></p><span>0.70€</span>
+                <p>Shurup panje<img src="@/assets/menu-items/water.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">........................................</span></p><span>0.70€</span>
             </div>
             <div class="flex-row menu-option">
                 <p>Panna Nutella<img src="@/assets/menu-items/cappuccino.png" alt="menu-item"> <span class="spacing" style="letter-spacing: 3px;">.......................................</span></p><span>1.00€</span>
@@ -298,145 +306,149 @@
         </div> -->
 
         <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
-        <div class="top">
-          <h1 class="menu-title">Crepes</h1>
-          <img class='logo' src="@/assets/krip-krap.png" alt="">
-        </div>
-
-        <div class="menu">
-          <div class="flex-row crepes-main">
-            <div class="flex-column crepes">
-              <h4>TË ËMBLA</h4>
-              <div class="flex-row menu-option">
-                <p>Nutella Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">......................................</span></p>
-                <span>1.50€</span>
-                <span class="alternativeText">Nutella, keks i bluar</span>
-              </div>  
-              <div class="flex-row menu-option">
-                <p>Wilberries Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................</span></p>
-                <span>1.50€</span>
-                <span class="alternativeText">Xhem i frutave të malit</span>
+          <div class="top">
+            <h1 class="menu-title">Crepes</h1>
+            <img class='logo' src="@/assets/krip-krap.png" alt="">
+          </div>
+          <div class="menu">
+            <div class="flex-row crepes-main">
+              <div class="flex-column crepes">
+                <h4>TË ËMBLA</h4>
+                <div class="flex-row menu-option">
+                  <p>Nutella Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">......................................</span></p>
+                  <span>1.50€</span>
+                  <span class="alternativeText">Nutella, keks i bluar</span>
+                </div>  
+                <div class="flex-row menu-option">
+                  <p>Wilberries Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.................................</span></p>
+                  <span>1.50€</span>
+                  <span class="alternativeText">Xhem i frutave të malit</span>
+                </div>
+                <div class="flex-row menu-option">
+                  <p>Nutella Fruit Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..............................</span></p>
+                  <span>2.00€</span>
+                  <span class="alternativeText">Banane, kiwi, dredhëz, nutella</span>
+                </div>
+                <div class="flex-row crepe-ico">
+                  <img :src="ico_5" alt="Ico">
+                </div>
               </div>
-              <div class="flex-row menu-option">
-                <p>Nutella fruit Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..............................</span></p>
-                <span>2.00€</span>
-                <span class="alternativeText">Banane, kiwi, dredhëz, nutella</span>
+              <div class="flex-column crepes">
+                <h4>TË KRIPURA</h4>
+                <div class="flex-row menu-option">
+                  <p>Mix Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..........................................</span></p>
+                  <span>2.50€</span>
+                  <span class="alternativeText">Kaçkavall, proshutë viçi dhe pule, misër, tranguj, domate, ullinj</span>
+                </div>  
+                <div class="flex-row menu-option">
+                  <p>Chicken Fresh<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.......................................</span></p>
+                  <span>2.00€</span>
+                  <span class="alternativeText">Kaçkavall, proshutë pule, kërpudha, domate</span>
+                </div>
+                <div class="flex-row menu-option">
+                  <p>Vegetarian Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">................................</span></p>
+                  <span>1.80€</span>
+                  <span class="alternativeText">Misër, tranguj, domate, kërpudha, ullinj, kaçkavall</span>
+                </div>
+                <div class="flex-row menu-option">
+                  <p>Omlete Chef<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
+                  <span>2.00€</span>
+                  <span class="alternativeText">Kaçkavall, vezë, proshutë pule</span>
+                </div>
+                <div class="flex-row menu-option">
+                  <p>Beef Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
+                  <span>1.30€</span>
+                  <span class="alternativeText">Kaçkavall dhe proshutë viçi</span>
+                </div>
+                <div class="flex-row menu-option">
+                  <p>Cheese Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.....................................</span></p>
+                  <span>1.30€</span>
+                  <span class="alternativeText">Vetëm djathë</span>
+                </div>
+                <div class="flex-row menu-option">
+                  <p>Mexican Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...................................</span></p>
+                  <span>2.50€</span>
+                  <span class="alternativeText">Kaçkavall, proshutë viçi dhe pule, misër, tranguj, domate, ullinj, tabasco</span>
+                </div>
               </div>
-              <div class="flex-row crepe-ico">
-                <img :src="ico_5" alt="Ico">
-              </div>
-            </div>
-            <div class="flex-column crepes">
-              <h4>TË KRIPURA</h4>
-              <div class="flex-row menu-option">
-                <p>Mix Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..........................................</span></p>
-                <span>2.50€</span>
-                <span class="alternativeText">Kaçkavall, proshutë viçi dhe pule, misër, tranguj, domate, ullinj</span>
-              </div>  
-              <div class="flex-row menu-option">
-                <p>Chicken Fresh<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.......................................</span></p>
-                <span>2.00€</span>
-                <span class="alternativeText">Kaçkavall, proshutë pule, kërpudha, domate</span>
-              </div>
-              <div class="flex-row menu-option">
-                <p>Vegetarian Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">................................</span></p>
-                <span>1.80€</span>
-                <span class="alternativeText">Misër, tranguj, domate, kërpudha, ullinj, kaçkavall</span>
-              </div>
-              <div class="flex-row menu-option">
-                <p>Omlete Chef<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
-                <span>2.00€</span>
-                <span class="alternativeText">Kaçkavall, vezë, proshutë pule</span>
-              </div>
-              <div class="flex-row menu-option">
-                <p>Beef Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
-                <span>1.30€</span>
-                <span class="alternativeText">Kaçkavall dhe proshutë viçi</span>
-              </div>
-              <div class="flex-row menu-option">
-                <p>Cheese Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.....................................</span></p>
-                <span>1.30€</span>
-                <span class="alternativeText">Vetëm djathë</span>
-              </div>
-              <div class="flex-row menu-option">
-                <p>Mexican Creppe<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...................................</span></p>
-                <span>2.50€</span>
-                <span class="alternativeText">Kaçkavall, proshutë viçi dhe pule, misër, tranguj, domate, ullinj, tabasco</span>
-              </div>
-
             </div>
           </div>
-        </div>
-        <div class="bottom">
+          <div class="bottom">
             <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrapfrozen</a></p>
             <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
-        </div>
+          </div>
         </div>
 
         <div v-bind:class="{'menu-loaded': isLoaded, 'menu-page': true}">
-            <div class="top">
-                <h1 class="menu-title">Juices</h1>
-                <img class='logo' src="@/assets/krip-krap.png" alt="">
-            </div>
+          <div class="top">
+            <h1 class="menu-title">Smoothies</h1>
+            <img class='logo' src="@/assets/krip-krap.png" alt="">
+          </div>
 
-            <div class="menu">
-              <div class="menu-1">
-                <div class="flex-row menu-option">
-                  <p>All in<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.....................................................</span></p>
-                  <span>1.50€</span>
-                  <span class="alternativeText">Fruta mali, dredhëz, kivi, ananas</span>
-                </div> 
-                <div class="flex-row menu-option">
-                  <p>Pick me up<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p>
-                  <span>1.50€</span>
-                  <span class="alternativeText">Banane, fruta mali</span>
-                </div> 
-                <div class="flex-row menu-option">
-                  <p>Stress Down<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
-                  <span>1.50€</span>
-                  <span class="alternativeText">Banane, mollë, dredhëz</span>
-                </div> 
-                <div class="flex-row menu-option">
-                  <p>Green Life<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p>
-                  <span>1.50€</span>
-                  <span class="alternativeText">Mollë, kivi, lime</span>
-                </div> 
+          <div class="menu">
+            <div class="menu-1">
+              <div class="flex-row menu-option">
+                <p>All in<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.....................................................</span></p>
+                <span>1.50€</span>
+                <span class="alternativeText">Fruta mali, dredhëz, kivi, ananas</span>
+              </div> 
+              <div class="flex-row menu-option">
+                <p>Pick me up<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">............................................</span></p>
+                <span>1.50€</span>
+                <span class="alternativeText">Banane, fruta mali</span>
+              </div> 
+              <div class="flex-row menu-option">
+                <p>Stress Down<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.........................................</span></p>
+                <span>1.50€</span>
+                <span class="alternativeText">Banane, mollë, dredhëz</span>
+              </div> 
+              <div class="flex-row menu-option">
+                <p>Green Life<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">.............................................</span></p>
+                <span>1.50€</span>
+                <span class="alternativeText">Mollë, kivi, lime</span>
+              </div> 
+            </div>
+            <h1 id="milkshakes" class="title-middle">Milkshakes</h1>
+            <div class="menu-2">
+              <div class="flex-row menu-option">
+                <p>Choco Milkshake<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................................</span></p>
+                <span>2.00€</span>
               </div>
-              <h1 id="milkshakes" class="title-middle">Milkshakes</h1>
-              <div class="menu-2">
-                <div class="flex-row menu-option">
-                  <p>Choco Milkshake<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">..................................</span></p>
-                  <span>2.00€</span>
-                </div>
-                <div class="flex-row menu-option">
-                  <p>Oreo Milkshake<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................</span></p>
-                  <span>2.00€</span>
-                </div>
-                <div class="flex-row menu-option">
-                  <p>Strawberry Milkshake<img class="item-hover" id="bravo" src="@/assets/menu-items/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...........................</span></p>
-                  <span>2.00€</span>
-                </div>
-                
+              <div class="flex-row menu-option">
+                <p>Oreo Milkshake<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">....................................</span></p>
+                <span>2.00€</span>
               </div>
-              <div class="ul-options-2">
-              <p>Disa shije/toppings mund të jenë sezonale</p>
+              <div class="flex-row menu-option">
+                <p>Strawberry Milkshake<img class="item-hover" id="bravo" src="@/assets/menu-items/drinks/bravo.png" alt="menu-item"><span class="spacing" style="letter-spacing: 3px;">...........................</span></p>
+                <span>2.00€</span>
               </div>
             </div>
+            <div class="ul-options-2">
+            <p>Disa shije/toppings mund të jenë sezonale</p>
+            </div>
+          </div>
 
-            <div class="bottom">
-                <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrapfrozen</a></p>
-                <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
-            </div>
+          <div class="bottom">
+            <p>instagram: <a href="https://www.instagram.com/kripkrapfrozen/">@kripkrapfrozen</a></p>
+            <p>web: <a href="http://www.kripkrapfrozen.net">www.kripkrapfrozen.net</a></p>
+          </div>
         </div>
     </div>
 </template>
 
 
 <script>
+
+
+
 export default {
   data() {
     return {
         isLoaded: false,
+
+        show_menu: false,
+
+        waffle_menu: '',
 
         topping_1: require('../assets/menu-toppings/Asset 1.svg'),
         topping_2: require('../assets/menu-toppings/Asset 3.svg'),
@@ -476,6 +488,17 @@ export default {
         ico_7: require('../assets/menu-toppings/10.png'),
         ico_8: require('../assets/menu-toppings/9.png'),
         ico_9: require('../assets/menu-toppings/8.png'),
+
+        waffle_1: require('../assets/menu-items/waffles/3.png'),
+        waffle_2: require('../assets/menu-items/waffles/4.png'),
+        waffle_3: require('../assets/menu-items/waffles/7.png'),
+        waffle_4: require('../assets/menu-items/waffles/6.png'),
+        waffle_5: require('../assets/menu-items/waffles/5.png'),
+        waffle_6: require('../assets/menu-items/waffles/6.png'),
+        waffle_7: require('../assets/menu-items/waffles/7.png'),
+        waffle_8: require('../assets/menu-items/waffles/8.png'),
+        waffle_9: require('../assets/menu-items/waffles/9.png'),
+        waffle_10: require('../assets/menu-items/waffles/10.png'),
     }
   },
   methods: {
@@ -499,7 +522,6 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
-
 
 .menu-main {
   display: flex;
@@ -689,19 +711,25 @@ export default {
   transform: translateX(-15px)
 }
 
+#carboWater {
+  width: 45px;
+  transform: translateX(-5px)
+
+}
+
 #iceTea {
-  width: 50px;
-  transform: translate(-5px, -50px);
+  width: 30px;
   filter: drop-shadow(0px 5px 3px rgba(34, 34, 34, 0.15));
 }
 
 #fanta {
   width: 25px;
-  transform: translateY(-5px);
+  transform: translateY(-2px);
 }
 
 #cola {
   width: 20px;
+  transform: translateY(5px);
 }
 
 #bravo {
@@ -711,6 +739,46 @@ export default {
 #redbull {
   width: 60px;
   transform: translate(-18px, 10px);
+}
+
+#schweppers {
+  width: 25px;
+}
+
+#sprite {
+  width: 30px;
+}
+
+#tonic {
+  width: 25px;
+}
+
+#orange {
+  width: 40px;
+}
+
+#cherry {
+  width: 40px;
+  transform: translateY(5px);
+}
+
+#peach {
+  width: 55px;
+  transform: translateY(5px);
+}
+
+#apple {
+  width: 70px;
+  transform: translateY(5px);
+}
+
+#wildBerries {
+  width: 60px;
+}
+
+#frappe {
+  width: 50px;
+  transform: translate(-10px, 0px);
 }
 
 .menu-option img {
@@ -730,7 +798,6 @@ export default {
   top: -65px;
 }
 
-
 .menu-page:nth-child(5) .menu, .menu-page:nth-child(2) .menu {
   height: auto;
 }
@@ -747,9 +814,7 @@ h1 {
 }
 
 #milkshakes {
-  font-size: 84px;
-  width: auto;
-  margin-bottom: 50px;
+  font-size: 8rem;
 }
 
 .logo {
@@ -786,6 +851,10 @@ h1 {
   flex-wrap: nowrap;
 }
 
+.menu-page:last-child .menu .alternativeText {
+  top: 40px;
+}
+
 .menu-page:nth-child(6) .menu, .menu-page:last-child .menu {
   height: auto;
 }
@@ -803,7 +872,7 @@ h1 {
 }
 
 .menu-waffles {
-  height: 410px;
+  height: 435px;
 }
 
 .menu-waffles .frozen-yogurt-ico img {
@@ -822,7 +891,38 @@ h1 {
 .alternativeText {
   position: absolute;
   top: 25px;
+  top: 100%;
+  left: 0;
   font-size: 15px;
+}
+
+.waffle-show {
+  width: 550px;
+  position: absolute;
+  right: 0;
+  top: 350px;
+}
+
+.waffle-container {
+  width: 305px;
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+.waffle-menu {
+  width: 150%;
+  position: absolute;
+  top: -150px;
+  left: -75px;
+}
+
+.hover-menu-text {
+  width: 535px;
+  position: absolute;
+  right: 0px;
+  top: 485px;
+  text-align: center;
 }
 
 .ice-option {
@@ -975,6 +1075,14 @@ h1 {
     text-align: center;
   }
 
+  .crepe-ico {
+    display: none;
+  }
+
+  #milkshakes {
+    margin: 40px auto 25px;
+  }
+
 }
 
 @media (max-width: 973px) {
@@ -992,16 +1100,17 @@ h1 {
 }
 
 @media (max-width: 746px) {
-  h1 {
-    font-size: 72px;
+  h1, #milkshakes {
+    font-size: 6rem;
   }
-  
+
   .logo {
     width: 200px;
     height: 200px;
     top: -60px;
   }
 }
+
 
 @media (max-width: 575px) {
   .logo {
@@ -1020,20 +1129,17 @@ h1 {
   }
 
   .crepes-main {
-    width: auto;
+    width: 100%;
   }
 
   .crepes {
     width: -webkit-fill-available;
   }
-}
 
-
-
-@media (max-width: 575px) {
   .spacing{
     display: none;
   }
+
   .menu-option {
     background: rgb(193, 154, 202);
     color: #fff;
@@ -1044,17 +1150,32 @@ h1 {
   }
 
   .alternativeText {
-    top: 40px;
-    left: 0;
     color: rgb(193, 154, 202);
+  }
+
+  #milkshakes {
+    font-size: 5rem;
   }
 
 }
 
 @media (max-width: 525px) {
+  
   #smoothies {
     font-size: 62px;;
   }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  #milkshakes {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 515px) {
@@ -1073,11 +1194,10 @@ h1 {
   #smoothies {
     font-size: 54px;;
   }
-}
 
-@media (max-width: 390px) {
-  .menu-page:nth-child(5) .crepes:last-child .menu-option:nth-child(5) .alternativeText{
-    top: 85px;
+  #milkshakes, h1 {
+    font-size: 4rem;
+
   }
 }
 
@@ -1110,13 +1230,6 @@ h1 {
 
 }
 
-@media (max-width: 356px) {
-  .menu-page:nth-child(5) .crepes:last-child .menu-option:nth-child(3) .alternativeText{
-    top: 85px;
-  }
-
-}
-
 @media (max-width: 340px) {
   .menu-option {
     height: fit-content;
@@ -1134,10 +1247,6 @@ h1 {
   }
   .menu-page:first-child .menu > div:first-child span{ 
     margin-left: auto;
-  }
-
-  .menu-page:nth-child(5) .crepes:first-child .menu-option:first-of-type .alternativeText{
-    top: 85px;
   }
 }
 
