@@ -262,6 +262,9 @@ export default {
 
 $breakpoint-tablet: 995px;
 @media (max-width: $breakpoint-tablet) {
+    .gallery-main {
+        width: 95%;
+    }
     .gallery {
         display: flex;
         transition: 0.3s;
@@ -269,9 +272,21 @@ $breakpoint-tablet: 995px;
         width: 100%;    
 
         .gallery__column {
+            width: 33%;
+        }
+    }
+}
+
+$mobile: 637px;
+
+@media (max-width: $mobile) {
+    .gallery {
+        .gallery__column {
             width: 50%;
         }
     }
+    
+    
 }
 
 </style>
