@@ -81,7 +81,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
 
 .slider-container {
-  width: 85%;
+  width: 98%;
   margin: auto;
   margin-top: 50px;
 }
