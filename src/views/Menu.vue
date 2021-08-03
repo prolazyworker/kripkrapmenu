@@ -422,7 +422,7 @@ export default {
         waffle_2: require('../assets/menu-items/waffles/4.png'),
         waffle_3: require('../assets/menu-items/waffles/7.png'),
         waffle_4: require('../assets/menu-items/waffles/6.png'),
-        waffle_5: require('../assets/menu-items/waffles/5.png'),
+        waffle_5: require('../assets/menu-items/waffles/11.png'),
         
         pancake_1: require('../assets/menu-items/waffles/5.png'),
         pancake_2: require('../assets/menu-items/waffles/1.png'),
@@ -553,13 +553,12 @@ export default {
   display: flex;
   width: min-content;
   text-align: center;
-  line-height: 15px;
-  font-size: 12px;
+  line-height: 17px;
+  font-size: 14px;
   color: #000;
   align-items: center;
   cursor: context-menu;
   margin: 5px;
-
 }
 
 .topping img, .jam img{
@@ -567,8 +566,6 @@ export default {
   transition-property: transform;
   transition-duration: 0.3s;
 }
-
-
 
 .nuts img {
   width: 125px;
@@ -584,7 +581,7 @@ export default {
 
 .jam img{
   width: 75px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .topping:first-child img {
