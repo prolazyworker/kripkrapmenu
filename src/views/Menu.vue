@@ -424,9 +424,9 @@ export default {
         waffle_4: require('../assets/menu-items/waffles/6.png'),
         waffle_5: require('../assets/menu-items/waffles/5.png'),
         
-        pancake_1: require('../assets/menu-items/waffles/1.png'),
-        pancake_2: require('../assets/menu-items/waffles/2.png'),
-        pancake_3: require('../assets/menu-items/waffles/5.png'),
+        pancake_1: require('../assets/menu-items/waffles/5.png'),
+        pancake_2: require('../assets/menu-items/waffles/1.png'),
+        pancake_3: require('../assets/menu-items/waffles/2.png'),
 
         creppe_1: require('../assets/menu-items/waffles/8.png'),
         creppe_2: require('../assets/menu-items/waffles/9.png'),
