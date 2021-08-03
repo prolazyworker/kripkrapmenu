@@ -1,7 +1,6 @@
 <template>
     <div class="navBar">
-        <router-link to="/">Home</router-link>
-        <router-link to="/menu">Menu</router-link>
+        <router-link to="/">Menu</router-link>
         <router-link to="/gallery">Galeria</router-link>
         <router-link to="/about">Rreth Nesh</router-link>
     </div>
@@ -44,38 +43,38 @@ a:hover {
 
 /* RESPONSIVENESS */
 
-@media (max-width: 717px) {
-    .navBar a {
-        margin: 0 5px;
-    }
-}
-
-@media (max-width: 637px) {
+@media (max-width: 585px) {
     a {
         align-self: center;
-        font-size: 20px;
+        font-size: 24px;
         text-align: center;
     }
     .navBar {
         padding-bottom: 0;
         padding: 25px 0 0;
-    }
+    } 
 }
 
-@media (max-width: 478px) {
+@media (max-width: 460px) {
     .navBar {
         padding: 25px 0 0;
     }
+
+    a {
+        padding: 10px 13px; 
+    } 
 }
 
-@media (max-width: 464px) {
-    a {
-        font-size: 16px;
+@media (max-width: 380px) {
+     a {
         padding: 10px 13px; 
-    }
+    } 
+}
 
-    .navBar {
-        padding: 25px 25px 0;
+@media (max-width: 410px){
+    a {
+        font-size: 21px;
+        margin: 0 5px;
     }
 }
 

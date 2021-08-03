@@ -42,7 +42,6 @@ function topFunction() {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 @font-face {
   font-family: "Moontime";
